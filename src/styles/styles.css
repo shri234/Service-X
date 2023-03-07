@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+/* article {
+  margin: 1.5rem 1rem;
+  font-size: 140%;
+  line-break: strict;
+} */
+.contact h1 {
+  font-size: 250%;
+  text-align: center;
+  margin-top: 5%;
+}
+.contact h2 {
+  font-size: 140%;
+  text-align: center;
+  margin-top: 0%;
+}
+
+.contact textarea {
+  width: 50%;
+  height: 250px;
+  padding: 12px 20px;
+
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  margin: 5%;
+}
+.contact form {
+  margin: 5%;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  box-sizing: content-box;
+  width: 50%;
+  padding: 3%;
+  height: max-content;
+  display: block;
+}
