@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.4aad7286.css",
-    "main.js": "/static/js/main.3f5edd43.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/index.html",
-    "main.4aad7286.css.map": "/static/css/main.4aad7286.css.map",
-    "main.3f5edd43.js.map": "/static/js/main.3f5edd43.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "https://bumbblebee.com/static/css/main.9c9f1b57.css",
+    "main.js": "https://bumbblebee.com/static/js/main.9fe5204c.js",
+    "static/js/787.28cb0dcd.chunk.js": "https://bumbblebee.com/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "https://bumbblebee.com/index.html",
+    "main.9c9f1b57.css.map": "https://bumbblebee.com/static/css/main.9c9f1b57.css.map",
+    "main.9fe5204c.js.map": "https://bumbblebee.com/static/js/main.9fe5204c.js.map",
+    "787.28cb0dcd.chunk.js.map": "https://bumbblebee.com/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4aad7286.css",
-    "static/js/main.3f5edd43.js"
+    "static/css/main.9c9f1b57.css",
+    "static/js/main.9fe5204c.js"
   ]
 }
