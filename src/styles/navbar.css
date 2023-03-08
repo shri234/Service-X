@@ -1,12 +1,12 @@
 .navigation {
-  height: 130px;
+  height: 120px;
   width: 100%;
   display: flex;
   align-items: center;
-  position: relative;
-  padding: 0.5rem 0rem;
-
+  padding: 0rem 0rem;
+  background-color: ghostwhite;
   color: black;
+  position: fixed;
 }
 .brand-name {
   text-decoration: none;
@@ -14,6 +14,7 @@
   background: -webkit-linear-gradient(#eee, #1c1b1b);
   font-size: 190%;
   margin-left: 5rem;
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -22,11 +23,13 @@
 }
 .navigation-menu ul {
   display: flex;
+
   padding: 50px;
 }
 .navigation-menu li {
   list-style-type: none;
   text-decoration-color: wheat;
+  position: sticky;
   margin: 0 1rem;
 }
 .navigation-menu li a {
@@ -34,6 +37,7 @@
   display: block;
   width: 100%;
   color: #1c1b1b;
+  position: sticky;
 }
 .navigation-menu li a:hover {
   background-color: lightblue;
@@ -56,4 +60,25 @@
 }
 .hamburger:hover {
   background-color: blue;
+}
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .navigation-menu ul {
+    display: none;
+  }
+  .navigation-menu li {
+    text-align: center;
+    margin: 0;
+  }
+  .navigation-menu li a {
+    color: black;
+
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+  .navigation-menu li:hover {
+    background-color: #eee;
+  }
 }

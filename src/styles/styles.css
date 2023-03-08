@@ -6,18 +6,20 @@
   padding: 0;
 }
 
-body {
+body::-webkit-scrollbar {
   font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
     "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: none;
 }
 
 .container {
   max-width: 90%;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 9%;
   padding: 1rem;
   display: flex;
   align-items: center;
@@ -28,6 +30,13 @@ body {
   font-size: 140%;
   line-break: strict;
 } */
+.container h1 {
+  text-align: left;
+  font-size: 150%;
+}
+.contact {
+  margin-top: 11%;
+}
 .contact h1 {
   font-size: 250%;
   text-align: center;
@@ -36,9 +45,11 @@ body {
 .contact h2 {
   font-size: 140%;
   text-align: center;
-  margin-top: 0%;
 }
-
+.container h2 {
+  font-size: 140%;
+  text-align: center;
+}
 .contact textarea {
   width: 50%;
   height: 250px;
@@ -61,4 +72,64 @@ body {
   padding: 3%;
   height: max-content;
   display: block;
+}
+.search p {
+  font-size: 120%;
+  font-weight: bold;
+  margin-left: 3%;
+  text-align: center;
+  margin-top: 4%;
+  font-family: "Times New Roman", Times, serif;
+}
+.search textarea {
+  width: 70%;
+  height: 150px;
+  padding: 12px 5px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  margin-left: 8%;
+  margin-top: 2%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.search h2 {
+  font-size: 150%;
+  text-align: center;
+}
+.team h1 {
+  font-size: 150%;
+  text-align: center;
+}
+.team {
+  margin-top: 11%;
+}
+.team img {
+  border-radius: 50%;
+}
+.avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 5%;
+  margin-left: 10%;
+  display: flex;
+}
+.avatar h2 {
+  margin-left: 15%;
+  text-align: center;
+}
+.avatar h3 {
+  margin-left: 15%;
+  text-align: center;
+}
+.column {
+  flex: 50.33%;
+  padding: 50px;
 }
