@@ -6,6 +6,7 @@ import ReactDOM from "react-dom";
 import Contact from "./components/contact";
 import Home from "./components/Homepage";
 import About from "./components/about";
+import Team from "./components/team";
 function App() {
   const rootElement = document.getElementById("root");
   ReactDOM.render(
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exxact path="/about" element={<About />} />
+        <Route exxact path="/team" element={<Team />} />
       </Routes>
     </BrowserRouter>,
     rootElement
